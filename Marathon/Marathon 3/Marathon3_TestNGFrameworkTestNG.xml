@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<parameter name="username" value="vinothkumar@testleaf.com"></parameter>
+	<parameter name="password" value="SeleniumChallenge@24"></parameter>
+  <test thread-count="5" name="Test">
+	<classes>
+		<class name="marathon3.Create"></class>
+		<class name="marathon3.Edit"></class>
+		<class name="marathon3.Delete"></class>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
